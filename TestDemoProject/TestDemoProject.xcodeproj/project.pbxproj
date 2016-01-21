@@ -300,6 +300,7 @@
 				2D6708E21C50CC090097AA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
