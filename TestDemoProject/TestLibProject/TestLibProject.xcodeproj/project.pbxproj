@@ -13,10 +13,22 @@
 		2D6708B41C50CBFB0097AA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B21C50CBFB0097AA8B /* Main.storyboard */; };
 		2D6708B61C50CBFB0097AA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B51C50CBFB0097AA8B /* Assets.xcassets */; };
 		2D6708B91C50CBFB0097AA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B71C50CBFB0097AA8B /* LaunchScreen.storyboard */; };
+		2DAFCE161C50DE6100C6C586 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6708B01C50CBFB0097AA8B /* KSViewController.m */; };
+		2DAFCE171C50DE7300C6C586 /* KSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6708AF1C50CBFB0097AA8B /* KSViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2DAFCE0F1C50DE5D00C6C586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D67089E1C50CBFB0097AA8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DAFCE091C50DE5D00C6C586;
+			remoteInfo = TestLibFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		2D6708A61C50CBFB0097AA8B /* TestLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6708A61C50CBFB0097AA8B /* TestLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TestLibProject.app; path = "/Users/gzc/Work/iOS/demos/TestLibAndDemo/TestDemoProject/TestLibProject/build/Debug-iphoneos/TestLibProject.app"; sourceTree = "<absolute>"; };
 		2D6708AA1C50CBFB0097AA8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D6708AC1C50CBFB0097AA8B /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
 		2D6708AD1C50CBFB0097AA8B /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
@@ -26,10 +38,19 @@
 		2D6708B51C50CBFB0097AA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D6708B81C50CBFB0097AA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D6708BA1C50CBFB0097AA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAFCE0E1C50DE5D00C6C586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAFCE1A1C50F80900C6C586 /* TestLibFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestLibFramework.framework; path = "/Users/gzc/Work/iOS/demos/TestLibAndDemo/TestDemoProject/TestLibProject/build/Debug-iphoneos/TestLibFramework.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2D6708A31C50CBFB0097AA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAFCE061C50DE5D00C6C586 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,16 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				2D6708A81C50CBFB0097AA8B /* TestLibProject */,
-				2D6708A71C50CBFB0097AA8B /* Products */,
+				2DAFCE0B1C50DE5D00C6C586 /* TestLibFramework */,
 			);
-			sourceTree = "<group>";
-		};
-		2D6708A71C50CBFB0097AA8B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2D6708A61C50CBFB0097AA8B /* TestLibProject.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2D6708A81C50CBFB0097AA8B /* TestLibProject */ = {
@@ -79,7 +92,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2DAFCE0B1C50DE5D00C6C586 /* TestLibFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2DAFCE0E1C50DE5D00C6C586 /* Info.plist */,
+			);
+			path = TestLibFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DAFCE071C50DE5D00C6C586 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAFCE171C50DE7300C6C586 /* KSViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2D6708A51C50CBFB0097AA8B /* TestLibProject */ = {
@@ -93,11 +125,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				2DAFCE101C50DE5D00C6C586 /* PBXTargetDependency */,
 			);
 			name = TestLibProject;
 			productName = TestLibProject;
 			productReference = 2D6708A61C50CBFB0097AA8B /* TestLibProject.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2DAFCE091C50DE5D00C6C586 /* TestLibFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DAFCE131C50DE5D00C6C586 /* Build configuration list for PBXNativeTarget "TestLibFramework" */;
+			buildPhases = (
+				2DAFCE051C50DE5D00C6C586 /* Sources */,
+				2DAFCE061C50DE5D00C6C586 /* Frameworks */,
+				2DAFCE071C50DE5D00C6C586 /* Headers */,
+				2DAFCE081C50DE5D00C6C586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLibFramework;
+			productName = TestLibFramework;
+			productReference = 2DAFCE1A1C50F80900C6C586 /* TestLibFramework.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -111,6 +162,9 @@
 					2D6708A51C50CBFB0097AA8B = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					2DAFCE091C50DE5D00C6C586 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 2D6708A11C50CBFB0097AA8B /* Build configuration list for PBXProject "TestLibProject" */;
@@ -122,11 +176,12 @@
 				Base,
 			);
 			mainGroup = 2D67089D1C50CBFB0097AA8B;
-			productRefGroup = 2D6708A71C50CBFB0097AA8B /* Products */;
+			productRefGroup = 2D67089D1C50CBFB0097AA8B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2D6708A51C50CBFB0097AA8B /* TestLibProject */,
+				2DAFCE091C50DE5D00C6C586 /* TestLibFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +194,13 @@
 				2D6708B91C50CBFB0097AA8B /* LaunchScreen.storyboard in Resources */,
 				2D6708B61C50CBFB0097AA8B /* Assets.xcassets in Resources */,
 				2D6708B41C50CBFB0097AA8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAFCE081C50DE5D00C6C586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +217,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2DAFCE051C50DE5D00C6C586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAFCE161C50DE6100C6C586 /* KSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DAFCE101C50DE5D00C6C586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DAFCE091C50DE5D00C6C586 /* TestLibFramework */;
+			targetProxy = 2DAFCE0F1C50DE5D00C6C586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2D6708B21C50CBFB0097AA8B /* Main.storyboard */ = {
@@ -281,6 +359,46 @@
 			};
 			name = Release;
 		};
+		2DAFCE141C50DE5D00C6C586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestLibFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jaxus.libTest.TestLibFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DAFCE151C50DE5D00C6C586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestLibFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jaxus.libTest.TestLibFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +418,16 @@
 				2D6708BF1C50CBFB0097AA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DAFCE131C50DE5D00C6C586 /* Build configuration list for PBXNativeTarget "TestLibFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAFCE141C50DE5D00C6C586 /* Debug */,
+				2DAFCE151C50DE5D00C6C586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
