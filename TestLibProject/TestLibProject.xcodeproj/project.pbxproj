@@ -46,16 +46,6 @@
 		4D390168EDCA26C5C1802EF7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37393F013A5DBEB4CAB85087 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2DAFCE0F1C50DE5D00C6C586 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D67089E1C50CBFB0097AA8B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2DAFCE091C50DE5D00C6C586;
-			remoteInfo = TestLibFramework;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		2D6708AA1C50CBFB0097AA8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D6708AC1C50CBFB0097AA8B /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
@@ -219,7 +209,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2DAFCE101C50DE5D00C6C586 /* PBXTargetDependency */,
 			);
 			name = TestLibProject;
 			productName = TestLibProject;
@@ -393,14 +382,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2DAFCE101C50DE5D00C6C586 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2DAFCE091C50DE5D00C6C586 /* TestLibFramework */;
-			targetProxy = 2DAFCE0F1C50DE5D00C6C586 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2D6708B21C50CBFB0097AA8B /* Main.storyboard */ = {
