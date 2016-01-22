@@ -8,7 +8,7 @@
 
 #import "KSViewController.h"
 #import <IJKMediaFramework/IJKAVMoviePlayerController.h>
-#import <Masonry/Masonry.h>
+//#import <Masonry/Masonry.h>
 
 @interface KSViewController ()
 
@@ -39,13 +39,13 @@
     [self.view addSubview:self.imageView];
     
     
-    [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        make.center.equalTo(self.view);
-        make.height.mas_equalTo(100);
-        make.width.mas_equalTo(100);
-        
-    }];
+//    [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        
+//        make.center.equalTo(self.view);
+//        make.height.mas_equalTo(100);
+//        make.width.mas_equalTo(100);
+//        
+//    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -21,13 +21,8 @@ FRAMEWORK="${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework"
 ######################
 # Build Frameworks
 ######################
-if [ -d ${PROJECT_NAME}.xcworkspace ]; then
-xcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${SCHEME} -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=latest' -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1
-xcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${SCHEME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1
-else
-xcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${SCHEME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1
-xcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${SCHEME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1
-fi
+xcodebuild -workspace "${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace" -scheme ${SCHEME} -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=latest' -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1
+xcodebuild -workspace "${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace" -scheme ${SCHEME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1
 
 ######################
 # Create directory for universal
