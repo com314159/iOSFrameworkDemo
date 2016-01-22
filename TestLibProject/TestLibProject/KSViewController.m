@@ -8,7 +8,7 @@
 
 #import "KSViewController.h"
 #import <IJKMediaFramework/IJKAVMoviePlayerController.h>
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 
 @interface KSViewController ()
 

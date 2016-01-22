@@ -28,6 +28,7 @@
 		2D6708B61C50CBFB0097AA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B51C50CBFB0097AA8B /* Assets.xcassets */; };
 		2D6708B91C50CBFB0097AA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B71C50CBFB0097AA8B /* LaunchScreen.storyboard */; };
 		2D94F80A1C52148000800665 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94F8031C52136F00800665 /* IJKMediaFramework.framework */; };
+		2D94F80C1C5214DD00800665 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94F80B1C5214DD00800665 /* libPods.a */; };
 		2DAFCE7A1C5102E800C6C586 /* KSModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFCE781C5102E800C6C586 /* KSModelClass.m */; };
 		2DAFCE7E1C51034E00C6C586 /* KSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6708AC1C50CBFB0097AA8B /* KSAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DAFCE7F1C51035000C6C586 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6708AD1C50CBFB0097AA8B /* KSAppDelegate.m */; };
@@ -57,6 +58,7 @@
 		2D6708BA1C50CBFB0097AA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D94F8031C52136F00800665 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		2D94F8061C52142000800665 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		2D94F80B1C5214DD00800665 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		2D9D6CF11C51E13800191160 /* TestLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9D6CF21C51E13800191160 /* TestLibFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLibFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAFCE0E1C50DE5D00C6C586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D94F80C1C5214DD00800665 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +170,7 @@
 		5BD7D7CF75F15A088EF8A7BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D94F80B1C5214DD00800665 /* libPods.a */,
 				2D94F8061C52142000800665 /* MediaToolbox.framework */,
 				2D94F8031C52136F00800665 /* IJKMediaFramework.framework */,
 				2DE7E2321C52012C00ABCDD5 /* libz.tbd */,
@@ -544,6 +548,10 @@
 				INFOPLIST_FILE = TestLibFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jaxus.libTest.TestLibFramework;
@@ -572,6 +580,10 @@
 				INFOPLIST_FILE = TestLibFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jaxus.libTest.TestLibFramework;
