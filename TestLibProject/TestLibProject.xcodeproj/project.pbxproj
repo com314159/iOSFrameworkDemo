@@ -27,6 +27,7 @@
 		2D6708B41C50CBFB0097AA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B21C50CBFB0097AA8B /* Main.storyboard */; };
 		2D6708B61C50CBFB0097AA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B51C50CBFB0097AA8B /* Assets.xcassets */; };
 		2D6708B91C50CBFB0097AA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B71C50CBFB0097AA8B /* LaunchScreen.storyboard */; };
+		2D94F80A1C52148000800665 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94F8031C52136F00800665 /* IJKMediaFramework.framework */; };
 		2DAFCE7A1C5102E800C6C586 /* KSModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFCE781C5102E800C6C586 /* KSModelClass.m */; };
 		2DAFCE7E1C51034E00C6C586 /* KSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6708AC1C50CBFB0097AA8B /* KSAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DAFCE7F1C51035000C6C586 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6708AD1C50CBFB0097AA8B /* KSAppDelegate.m */; };
@@ -34,10 +35,8 @@
 		2DDEECBB1C51059000812263 /* KSModelClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFCE771C5102E800C6C586 /* KSModelClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DDEECBE1C51069500812263 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6708B01C50CBFB0097AA8B /* KSViewController.m */; };
 		2DDEECBF1C51069700812263 /* KSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6708AF1C50CBFB0097AA8B /* KSViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DE7E21F1C51CB2700ABCDD5 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E21E1C51CB2700ABCDD5 /* IJKMediaFramework.framework */; };
 		2DE7E2231C51DD7B00ABCDD5 /* TestAsset.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */; };
 		2DE7E2241C51DD7B00ABCDD5 /* TestAsset.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */; };
-		2DE7E2251C51DE2000ABCDD5 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E21E1C51CB2700ABCDD5 /* IJKMediaFramework.framework */; };
 		2DE7E22B1C5200B000ABCDD5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E22A1C5200B000ABCDD5 /* VideoToolbox.framework */; };
 		2DE7E22D1C5200B600ABCDD5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E22C1C5200B600ABCDD5 /* AudioToolbox.framework */; };
 		2DE7E22F1C5200EF00ABCDD5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E22E1C5200EF00ABCDD5 /* libc++.tbd */; };
@@ -56,13 +55,14 @@
 		2D6708B51C50CBFB0097AA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D6708B81C50CBFB0097AA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D6708BA1C50CBFB0097AA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D94F8031C52136F00800665 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		2D94F8061C52142000800665 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		2D9D6CF11C51E13800191160 /* TestLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9D6CF21C51E13800191160 /* TestLibFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLibFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAFCE0E1C50DE5D00C6C586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DAFCE711C51023800C6C586 /* KSTestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTestLib.h; sourceTree = "<group>"; };
 		2DAFCE771C5102E800C6C586 /* KSModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSModelClass.h; sourceTree = "<group>"; };
 		2DAFCE781C5102E800C6C586 /* KSModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSModelClass.m; sourceTree = "<group>"; };
-		2DE7E21E1C51CB2700ABCDD5 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestAsset.bundle; sourceTree = "<group>"; };
 		2DE7E22A1C5200B000ABCDD5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		2DE7E22C1C5200B600ABCDD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -79,12 +79,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D94F80A1C52148000800665 /* IJKMediaFramework.framework in Frameworks */,
 				2DE7E2331C52012C00ABCDD5 /* libz.tbd in Frameworks */,
 				2DE7E2311C5200FC00ABCDD5 /* libstdc++.tbd in Frameworks */,
 				2DE7E22F1C5200EF00ABCDD5 /* libc++.tbd in Frameworks */,
 				2DE7E22D1C5200B600ABCDD5 /* AudioToolbox.framework in Frameworks */,
 				2DE7E22B1C5200B000ABCDD5 /* VideoToolbox.framework in Frameworks */,
-				2DE7E2251C51DE2000ABCDD5 /* IJKMediaFramework.framework in Frameworks */,
 				4D390168EDCA26C5C1802EF7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE7E21F1C51CB2700ABCDD5 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */,
-				2DE7E21E1C51CB2700ABCDD5 /* IJKMediaFramework.framework */,
 				2D6708A81C50CBFB0097AA8B /* TestLibProject */,
 				2DAFCE0B1C50DE5D00C6C586 /* TestLibFramework */,
 				2DAFCE521C50FBCE00C6C586 /* KeyShareBundle */,
@@ -169,6 +167,8 @@
 		5BD7D7CF75F15A088EF8A7BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D94F8061C52142000800665 /* MediaToolbox.framework */,
+				2D94F8031C52136F00800665 /* IJKMediaFramework.framework */,
 				2DE7E2321C52012C00ABCDD5 /* libz.tbd */,
 				2DE7E2301C5200FC00ABCDD5 /* libstdc++.tbd */,
 				2DE7E22E1C5200EF00ABCDD5 /* libc++.tbd */,
@@ -310,7 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = ./universalFramework.sh;
+			shellScript = "./IOS-Universal-Framework_aggregate.sh";
 		};
 		7716F538803F84EE294D595D /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

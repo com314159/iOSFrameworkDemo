@@ -11,8 +11,8 @@ DEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework
 SIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework
 # -configuration ${CONFIGURATION}
 # Clean and Building both architectures.
-xcodebuild -configuration "Release" -target "${FMK_NAME}" -sdk iphoneos clean build
-xcodebuild -configuration "Release" -target "${FMK_NAME}" -sdk iphonesimulator clean build
+xcodebuild -workspace "${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace" -configuration "Release" -scheme "${FMK_NAME}" -sdk iphoneos clean build
+xcodebuild -workspace "${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace" -configuration "Release" -scheme "${FMK_NAME}" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' clean build
 # Cleaning the oldest.
 if [ -d "${INSTALL_DIR}" ]
 then

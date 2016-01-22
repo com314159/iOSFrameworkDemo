@@ -7,7 +7,8 @@
 //
 
 #import "KSViewController.h"
-#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <IJKMediaFramework/IJKAVMoviePlayerController.h>
+#import "Masonry.h"
 
 @interface KSViewController ()
 
@@ -20,20 +21,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    NSLog(@"view didLoad lib project");
     
-    IJKMPMoviePlayerController *vc = [[IJKMPMoviePlayerController alloc] init];
+    IJKAVMoviePlayerController *vc = [[IJKAVMoviePlayerController alloc] init];
     
     NSLog(@"ijk %@",vc);
     
+    NSLog(@"view didLoad lib project");
+    
+    
+    
+    
     self.imageView = [[UIImageView alloc] init];
     self.imageView.image = [UIImage imageNamed:@"TestAsset.bundle/testAsset"];
-    self.imageView.frame = CGRectMake(20, 100, 50, 50);
-    
 
     [self.view addSubview:self.imageView];
+    
+    
+    [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.center.equalTo(self.view);
+        make.height.mas_equalTo(100);
+        make.width.mas_equalTo(100);
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
