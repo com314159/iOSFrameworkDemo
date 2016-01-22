@@ -7,7 +7,7 @@
 //
 
 #import "KSViewController.h"
-//#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
 
 @interface KSViewController ()
 
@@ -24,16 +24,16 @@
     
     NSLog(@"view didLoad lib project");
     
-//    IJKMPMoviePlayerController *vc = [[IJKMPMoviePlayerController alloc] init];
-//    
-//    NSLog(@"ijk %@",vc);
+    IJKMPMoviePlayerController *vc = [[IJKMPMoviePlayerController alloc] init];
     
-//    self.imageView = [[UIImageView alloc] init];
-//    self.imageView.image = [UIImage imageNamed:@"testAsset"];
-//    self.imageView.frame = CGRectMake(20, 100, 50, 50);
-//    
-//
-//    [self.view addSubview:self.imageView];
+    NSLog(@"ijk %@",vc);
+    
+    self.imageView = [[UIImageView alloc] init];
+    self.imageView.image = [UIImage imageNamed:@"TestAsset.bundle/testAsset"];
+    self.imageView.frame = CGRectMake(20, 100, 50, 50);
+    
+
+    [self.view addSubview:self.imageView];
 }
 
 - (void)didReceiveMemoryWarning {

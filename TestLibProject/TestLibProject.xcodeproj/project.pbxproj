@@ -11,7 +11,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 2DDEECC81C510E1300812263 /* Build configuration list for PBXAggregateTarget "Universal" */;
 			buildPhases = (
-				2DDEECCB1C510E1D00812263 /* ShellScript */,
+				2DDEECCB1C510E1D00812263 /* Run Script */,
 			);
 			dependencies = (
 			);
@@ -34,6 +34,16 @@
 		2DDEECBB1C51059000812263 /* KSModelClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFCE771C5102E800C6C586 /* KSModelClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DDEECBE1C51069500812263 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6708B01C50CBFB0097AA8B /* KSViewController.m */; };
 		2DDEECBF1C51069700812263 /* KSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6708AF1C50CBFB0097AA8B /* KSViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE7E21F1C51CB2700ABCDD5 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E21E1C51CB2700ABCDD5 /* IJKMediaFramework.framework */; };
+		2DE7E2231C51DD7B00ABCDD5 /* TestAsset.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */; };
+		2DE7E2241C51DD7B00ABCDD5 /* TestAsset.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */; };
+		2DE7E2251C51DE2000ABCDD5 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E21E1C51CB2700ABCDD5 /* IJKMediaFramework.framework */; };
+		2DE7E22B1C5200B000ABCDD5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E22A1C5200B000ABCDD5 /* VideoToolbox.framework */; };
+		2DE7E22D1C5200B600ABCDD5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E22C1C5200B600ABCDD5 /* AudioToolbox.framework */; };
+		2DE7E22F1C5200EF00ABCDD5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E22E1C5200EF00ABCDD5 /* libc++.tbd */; };
+		2DE7E2311C5200FC00ABCDD5 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E2301C5200FC00ABCDD5 /* libstdc++.tbd */; };
+		2DE7E2331C52012C00ABCDD5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7E2321C52012C00ABCDD5 /* libz.tbd */; };
+		4D390168EDCA26C5C1802EF7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37393F013A5DBEB4CAB85087 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +66,22 @@
 		2D6708B51C50CBFB0097AA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D6708B81C50CBFB0097AA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D6708BA1C50CBFB0097AA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9D6CF11C51E13800191160 /* TestLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9D6CF21C51E13800191160 /* TestLibFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLibFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAFCE0E1C50DE5D00C6C586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DAFCE531C50FBCE00C6C586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DAFCE651C5100F800C6C586 /* TestLibFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLibFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAFCE711C51023800C6C586 /* KSTestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTestLib.h; sourceTree = "<group>"; };
 		2DAFCE771C5102E800C6C586 /* KSModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSModelClass.h; sourceTree = "<group>"; };
 		2DAFCE781C5102E800C6C586 /* KSModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSModelClass.m; sourceTree = "<group>"; };
-		2DDEEC921C5104CB00812263 /* TestLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE7E21E1C51CB2700ABCDD5 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestAsset.bundle; sourceTree = "<group>"; };
+		2DE7E22A1C5200B000ABCDD5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2DE7E22C1C5200B600ABCDD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2DE7E22E1C5200EF00ABCDD5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2DE7E2301C5200FC00ABCDD5 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		2DE7E2321C52012C00ABCDD5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		37393F013A5DBEB4CAB85087 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E85A54FB6C500D16BA47F2D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		53302AAAF2A776D6780BD6F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +89,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE7E2331C52012C00ABCDD5 /* libz.tbd in Frameworks */,
+				2DE7E2311C5200FC00ABCDD5 /* libstdc++.tbd in Frameworks */,
+				2DE7E22F1C5200EF00ABCDD5 /* libc++.tbd in Frameworks */,
+				2DE7E22D1C5200B600ABCDD5 /* AudioToolbox.framework in Frameworks */,
+				2DE7E22B1C5200B000ABCDD5 /* VideoToolbox.framework in Frameworks */,
+				2DE7E2251C51DE2000ABCDD5 /* IJKMediaFramework.framework in Frameworks */,
+				4D390168EDCA26C5C1802EF7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE7E21F1C51CB2700ABCDD5 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,11 +113,15 @@
 		2D67089D1C50CBFB0097AA8B = {
 			isa = PBXGroup;
 			children = (
+				2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */,
+				2DE7E21E1C51CB2700ABCDD5 /* IJKMediaFramework.framework */,
 				2D6708A81C50CBFB0097AA8B /* TestLibProject */,
 				2DAFCE0B1C50DE5D00C6C586 /* TestLibFramework */,
 				2DAFCE521C50FBCE00C6C586 /* KeyShareBundle */,
-				2DAFCE651C5100F800C6C586 /* TestLibFramework.framework */,
-				2DDEEC921C5104CB00812263 /* TestLibProject.app */,
+				2D792AB83B1936D7382EFC3C /* Pods */,
+				5BD7D7CF75F15A088EF8A7BC /* Frameworks */,
+				2D9D6CF11C51E13800191160 /* TestLibProject.app */,
+				2D9D6CF21C51E13800191160 /* TestLibFramework.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +152,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2D792AB83B1936D7382EFC3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E85A54FB6C500D16BA47F2D /* Pods.debug.xcconfig */,
+				53302AAAF2A776D6780BD6F8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2DAFCE0B1C50DE5D00C6C586 /* TestLibFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,9 +172,21 @@
 		2DAFCE521C50FBCE00C6C586 /* KeyShareBundle */ = {
 			isa = PBXGroup;
 			children = (
-				2DAFCE531C50FBCE00C6C586 /* Info.plist */,
 			);
 			path = KeyShareBundle;
+			sourceTree = "<group>";
+		};
+		5BD7D7CF75F15A088EF8A7BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7E2321C52012C00ABCDD5 /* libz.tbd */,
+				2DE7E2301C5200FC00ABCDD5 /* libstdc++.tbd */,
+				2DE7E22E1C5200EF00ABCDD5 /* libc++.tbd */,
+				2DE7E22C1C5200B600ABCDD5 /* AudioToolbox.framework */,
+				2DE7E22A1C5200B000ABCDD5 /* VideoToolbox.framework */,
+				37393F013A5DBEB4CAB85087 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D6708BD1C50CBFB0097AA8B /* Build configuration list for PBXNativeTarget "TestLibProject" */;
 			buildPhases = (
+				EC9C80E50872695095054ABA /* Check Pods Manifest.lock */,
 				2D6708A21C50CBFB0097AA8B /* Sources */,
 				2D6708A31C50CBFB0097AA8B /* Frameworks */,
 				2D6708A41C50CBFB0097AA8B /* Resources */,
+				DD643C266E1D23A1DB1582E3 /* Embed Pods Frameworks */,
+				7716F538803F84EE294D595D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,7 +223,7 @@
 			);
 			name = TestLibProject;
 			productName = TestLibProject;
-			productReference = 2DDEEC921C5104CB00812263 /* TestLibProject.app */;
+			productReference = 2D9D6CF11C51E13800191160 /* TestLibProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2DAFCE091C50DE5D00C6C586 /* TestLibFramework */ = {
@@ -186,7 +241,7 @@
 			);
 			name = TestLibFramework;
 			productName = TestLibFramework;
-			productReference = 2DAFCE651C5100F800C6C586 /* TestLibFramework.framework */;
+			productReference = 2D9D6CF21C51E13800191160 /* TestLibFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -200,9 +255,11 @@
 				TargetAttributes = {
 					2D6708A51C50CBFB0097AA8B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4Z3VAZQM6F;
 					};
 					2DAFCE091C50DE5D00C6C586 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4Z3VAZQM6F;
 					};
 					2DDEECC71C510E1300812263 = {
 						CreatedOnToolsVersion = 7.2;
@@ -234,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE7E2231C51DD7B00ABCDD5 /* TestAsset.bundle in Resources */,
 				2D6708B91C50CBFB0097AA8B /* LaunchScreen.storyboard in Resources */,
 				2D6708B61C50CBFB0097AA8B /* Assets.xcassets in Resources */,
 				2D6708B41C50CBFB0097AA8B /* Main.storyboard in Resources */,
@@ -244,24 +302,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE7E2241C51DD7B00ABCDD5 /* TestAsset.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DDEECCB1C510E1D00812263 /* ShellScript */ = {
+		2DDEECCB1C510E1D00812263 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./IOS-Universal-Framework_aggregate.sh";
+			shellScript = ./universalFramework.sh;
+		};
+		7716F538803F84EE294D595D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD643C266E1D23A1DB1582E3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9C80E50872695095054ABA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -401,14 +506,20 @@
 		};
 		2D6708BE1C50CBFB0097AA8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E85A54FB6C500D16BA47F2D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TestLibProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jaxus.libTest.TestLibProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,14 +527,20 @@
 		};
 		2D6708BF1C50CBFB0097AA8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53302AAAF2A776D6780BD6F8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TestLibProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jaxus.libTest.TestLibProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -432,6 +549,8 @@
 		2DAFCE141C50DE5D00C6C586 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -458,6 +577,8 @@
 		2DAFCE151C50DE5D00C6C586 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -484,6 +605,7 @@
 		2DDEECC91C510E1300812263 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;

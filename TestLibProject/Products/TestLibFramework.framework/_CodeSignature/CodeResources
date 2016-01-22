@@ -20,6 +20,10 @@
 		<data>
 		LcMNG8jSnPnEd3Y702yqMYyNFVo=
 		</data>
+		<key>TestAsset.bundle/testAsset@3x.png</key>
+		<data>
+		4Lv/y3Gz8vlXk91pdlVhbj6zRWA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -34,6 +38,10 @@
 		<key>Headers/KSViewController.h</key>
 		<data>
 		UI9/EQKZVMfN5Ss9i0hsMJfdVOc=
+		</data>
+		<key>TestAsset.bundle/testAsset@3x.png</key>
+		<data>
+		4Lv/y3Gz8vlXk91pdlVhbj6zRWA=
 		</data>
 	</dict>
 	<key>rules</key>

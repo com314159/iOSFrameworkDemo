@@ -1,0 +1,6 @@
+# 你们不要直接修改Pod的里面的代码,如果需要修改,可以fork别人的仓库到我们的gitlab上面,然后再修改gitlab上面的代码.
+
+# 注意这个库我们自己修改过了,所以放我们自己的Gitlab上面了, 如果需要修改去这个Git库修改
+pod 'FLAnimatedImage',:git => 'http://gitlab.keyshare.cc/jaxus-ios/flanimatedimage.git'
+
+#pod 'Reveal-iOS-SDK', :configurations => ['Debug']

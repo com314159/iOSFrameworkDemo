@@ -1,0 +1,19 @@
+PODS:
+  - FLAnimatedImage (1.0.13)
+
+DEPENDENCIES:
+  - FLAnimatedImage (from `http://gitlab.keyshare.cc/jaxus-ios/flanimatedimage.git`)
+
+EXTERNAL SOURCES:
+  FLAnimatedImage:
+    :git: http://gitlab.keyshare.cc/jaxus-ios/flanimatedimage.git
+
+CHECKOUT OPTIONS:
+  FLAnimatedImage:
+    :commit: b20dd350f60d12f407a0a2a0789c5998480b03e0
+    :git: http://gitlab.keyshare.cc/jaxus-ios/flanimatedimage.git
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: a8092a6d84f19ce68f3e8625162437013c58df41
+
+COCOAPODS: 0.39.0

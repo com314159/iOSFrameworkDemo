@@ -7,6 +7,34 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2DDEECC71C510E1300812263"
+               BuildableName = "Universal"
+               BlueprintName = "Universal"
+               ReferencedContainer = "container:TestLibProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2DAFCE091C50DE5D00C6C586"
+               BuildableName = "TestLibFramework.framework"
+               BlueprintName = "TestLibFramework"
+               ReferencedContainer = "container:TestLibProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
@@ -32,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D6708A51C50CBFB0097AA8B"
-            BuildableName = "TestLibProject.app"
-            BlueprintName = "TestLibProject"
+            BlueprintIdentifier = "2DDEECC71C510E1300812263"
+            BuildableName = "Universal"
+            BlueprintName = "Universal"
             ReferencedContainer = "container:TestLibProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -42,7 +70,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -51,16 +79,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D6708A51C50CBFB0097AA8B"
-            BuildableName = "TestLibProject.app"
-            BlueprintName = "TestLibProject"
+            BlueprintIdentifier = "2DDEECC71C510E1300812263"
+            BuildableName = "Universal"
+            BlueprintName = "Universal"
             ReferencedContainer = "container:TestLibProject.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +97,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D6708A51C50CBFB0097AA8B"
-            BuildableName = "TestLibProject.app"
-            BlueprintName = "TestLibProject"
+            BlueprintIdentifier = "2DDEECC71C510E1300812263"
+            BuildableName = "Universal"
+            BlueprintName = "Universal"
             ReferencedContainer = "container:TestLibProject.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
