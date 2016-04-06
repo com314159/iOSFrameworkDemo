@@ -7,7 +7,6 @@
 //
 
 #import "KSViewController.h"
-#import <IJKMediaFramework/IJKAVMoviePlayerController.h>
 #import <Masonry/Masonry.h>
 
 @interface KSViewController ()
@@ -23,10 +22,6 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    
-    IJKAVMoviePlayerController *vc = [[IJKAVMoviePlayerController alloc] init];
-    
-    NSLog(@"ijk %@",vc);
     
     NSLog(@"view didLoad lib project");
     

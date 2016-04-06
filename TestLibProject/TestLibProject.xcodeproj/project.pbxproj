@@ -27,7 +27,6 @@
 		2D6708B41C50CBFB0097AA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B21C50CBFB0097AA8B /* Main.storyboard */; };
 		2D6708B61C50CBFB0097AA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B51C50CBFB0097AA8B /* Assets.xcassets */; };
 		2D6708B91C50CBFB0097AA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B71C50CBFB0097AA8B /* LaunchScreen.storyboard */; };
-		2D94F80A1C52148000800665 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94F8031C52136F00800665 /* IJKMediaFramework.framework */; };
 		2D94F81B1C521DF200800665 /* KSModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D94F81A1C521DF200800665 /* KSModelClass.m */; };
 		2D94F81D1C52200900800665 /* KSModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D94F81A1C521DF200800665 /* KSModelClass.m */; };
 		2D94F81E1C52200B00800665 /* KSModelClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D94F8191C521DF200800665 /* KSModelClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,7 +54,6 @@
 		2D6708B51C50CBFB0097AA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D6708B81C50CBFB0097AA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D6708BA1C50CBFB0097AA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D94F8031C52136F00800665 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		2D94F8061C52142000800665 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		2D94F80B1C5214DD00800665 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		2D94F8191C521DF200800665 /* KSModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSModelClass.h; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D94F80A1C52148000800665 /* IJKMediaFramework.framework in Frameworks */,
 				2DE7E2331C52012C00ABCDD5 /* libz.tbd in Frameworks */,
 				2DE7E2311C5200FC00ABCDD5 /* libstdc++.tbd in Frameworks */,
 				2DE7E22F1C5200EF00ABCDD5 /* libc++.tbd in Frameworks */,
@@ -172,7 +169,6 @@
 			children = (
 				2D94F80B1C5214DD00800665 /* libPods.a */,
 				2D94F8061C52142000800665 /* MediaToolbox.framework */,
-				2D94F8031C52136F00800665 /* IJKMediaFramework.framework */,
 				2DE7E2321C52012C00ABCDD5 /* libz.tbd */,
 				2DE7E2301C5200FC00ABCDD5 /* libstdc++.tbd */,
 				2DE7E22E1C5200EF00ABCDD5 /* libc++.tbd */,
