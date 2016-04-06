@@ -28,11 +28,11 @@
 		2D6708B61C50CBFB0097AA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B51C50CBFB0097AA8B /* Assets.xcassets */; };
 		2D6708B91C50CBFB0097AA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6708B71C50CBFB0097AA8B /* LaunchScreen.storyboard */; };
 		2D94F80A1C52148000800665 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94F8031C52136F00800665 /* IJKMediaFramework.framework */; };
-		2DAFCE7A1C5102E800C6C586 /* KSModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFCE781C5102E800C6C586 /* KSModelClass.m */; };
+		2D94F81B1C521DF200800665 /* KSModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D94F81A1C521DF200800665 /* KSModelClass.m */; };
+		2D94F81D1C52200900800665 /* KSModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D94F81A1C521DF200800665 /* KSModelClass.m */; };
+		2D94F81E1C52200B00800665 /* KSModelClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D94F8191C521DF200800665 /* KSModelClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DAFCE7E1C51034E00C6C586 /* KSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6708AC1C50CBFB0097AA8B /* KSAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DAFCE7F1C51035000C6C586 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6708AD1C50CBFB0097AA8B /* KSAppDelegate.m */; };
-		2DDEECBA1C51058D00812263 /* KSModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFCE781C5102E800C6C586 /* KSModelClass.m */; };
-		2DDEECBB1C51059000812263 /* KSModelClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFCE771C5102E800C6C586 /* KSModelClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DDEECBE1C51069500812263 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6708B01C50CBFB0097AA8B /* KSViewController.m */; };
 		2DDEECBF1C51069700812263 /* KSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6708AF1C50CBFB0097AA8B /* KSViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DE7E2231C51DD7B00ABCDD5 /* TestAsset.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */; };
@@ -58,12 +58,13 @@
 		2D94F8031C52136F00800665 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		2D94F8061C52142000800665 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		2D94F80B1C5214DD00800665 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		2D94F8191C521DF200800665 /* KSModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSModelClass.h; sourceTree = "<group>"; };
+		2D94F81A1C521DF200800665 /* KSModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSModelClass.m; sourceTree = "<group>"; };
+		2D94F81C1C521E3100800665 /* KeyShare-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeyShare-Prefix.pch"; sourceTree = "<group>"; };
 		2D9D6CF11C51E13800191160 /* TestLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9D6CF21C51E13800191160 /* TestLibFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLibFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAFCE0E1C50DE5D00C6C586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DAFCE711C51023800C6C586 /* KSTestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTestLib.h; sourceTree = "<group>"; };
-		2DAFCE771C5102E800C6C586 /* KSModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSModelClass.h; sourceTree = "<group>"; };
-		2DAFCE781C5102E800C6C586 /* KSModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSModelClass.m; sourceTree = "<group>"; };
 		2DE7E2221C51DD7B00ABCDD5 /* TestAsset.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestAsset.bundle; sourceTree = "<group>"; };
 		2DE7E22A1C5200B000ABCDD5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		2DE7E22C1C5200B600ABCDD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -117,8 +118,6 @@
 		2D6708A81C50CBFB0097AA8B /* TestLibProject */ = {
 			isa = PBXGroup;
 			children = (
-				2DAFCE771C5102E800C6C586 /* KSModelClass.h */,
-				2DAFCE781C5102E800C6C586 /* KSModelClass.m */,
 				2DAFCE711C51023800C6C586 /* KSTestLib.h */,
 				2D6708AC1C50CBFB0097AA8B /* KSAppDelegate.h */,
 				2D6708AD1C50CBFB0097AA8B /* KSAppDelegate.m */,
@@ -129,6 +128,8 @@
 				2D6708B71C50CBFB0097AA8B /* LaunchScreen.storyboard */,
 				2D6708BA1C50CBFB0097AA8B /* Info.plist */,
 				2D6708A91C50CBFB0097AA8B /* Supporting Files */,
+				2D94F8191C521DF200800665 /* KSModelClass.h */,
+				2D94F81A1C521DF200800665 /* KSModelClass.m */,
 			);
 			path = TestLibProject;
 			sourceTree = "<group>";
@@ -137,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				2D6708AA1C50CBFB0097AA8B /* main.m */,
+				2D94F81C1C521E3100800665 /* KeyShare-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,8 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DAFCE7E1C51034E00C6C586 /* KSAppDelegate.h in Headers */,
-				2DDEECBB1C51059000812263 /* KSModelClass.h in Headers */,
 				2DDEECBF1C51069700812263 /* KSViewController.h in Headers */,
+				2D94F81E1C52200B00800665 /* KSModelClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +370,7 @@
 			files = (
 				2D6708B11C50CBFB0097AA8B /* KSViewController.m in Sources */,
 				2D6708AE1C50CBFB0097AA8B /* KSAppDelegate.m in Sources */,
-				2DAFCE7A1C5102E800C6C586 /* KSModelClass.m in Sources */,
+				2D94F81B1C521DF200800665 /* KSModelClass.m in Sources */,
 				2D6708AB1C50CBFB0097AA8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,9 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DDEECBA1C51058D00812263 /* KSModelClass.m in Sources */,
 				2DAFCE7F1C51035000C6C586 /* KSAppDelegate.m in Sources */,
 				2DDEECBE1C51069500812263 /* KSViewController.m in Sources */,
+				2D94F81D1C52200900800665 /* KSModelClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +500,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "TestLibProject/KeyShare-Prefix.pch";
 				INFOPLIST_FILE = TestLibProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -521,6 +524,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "TestLibProject/KeyShare-Prefix.pch";
 				INFOPLIST_FILE = TestLibProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -547,6 +551,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "TestLibProject/KeyShare-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -586,6 +591,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "TestLibProject/KeyShare-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",

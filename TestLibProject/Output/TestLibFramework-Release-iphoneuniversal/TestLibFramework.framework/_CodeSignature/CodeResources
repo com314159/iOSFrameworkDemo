@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/KSModelClass.h</key>
 		<data>
-		R3Nq12l4a73RV4ie/DQ/unvPyos=
+		ZjsXad/qv+tDGuT61eHE8MLCreE=
 		</data>
 		<key>Headers/KSViewController.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LcMNG8jSnPnEd3Y702yqMYyNFVo=
+		8n/r+OsMAsKJ6arYEnMTQgcXGHU=
 		</data>
 		<key>TestAsset.bundle/testAsset@3x.png</key>
 		<data>
@@ -28,21 +28,49 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/KSAppDelegate.h</key>
-		<data>
-		foQ5zn7yk60PfaU5sHM1ChAsIFU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			foQ5zn7yk60PfaU5sHM1ChAsIFU=
+			</data>
+			<key>hash2</key>
+			<data>
+			TUrAdsjbGneIp03T/q98BG8bAXCt46pEFsFu2jDywLM=
+			</data>
+		</dict>
 		<key>Headers/KSModelClass.h</key>
-		<data>
-		R3Nq12l4a73RV4ie/DQ/unvPyos=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZjsXad/qv+tDGuT61eHE8MLCreE=
+			</data>
+			<key>hash2</key>
+			<data>
+			IpDG8j60GWbRa+554Bv3AkA1nXT8gJRJCfbNaxY5a1U=
+			</data>
+		</dict>
 		<key>Headers/KSViewController.h</key>
-		<data>
-		UI9/EQKZVMfN5Ss9i0hsMJfdVOc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			UI9/EQKZVMfN5Ss9i0hsMJfdVOc=
+			</data>
+			<key>hash2</key>
+			<data>
+			67lfP0yp46yj95n6Kh5l0RUT0zmxGVIAke7t1gFDoRQ=
+			</data>
+		</dict>
 		<key>TestAsset.bundle/testAsset@3x.png</key>
-		<data>
-		4Lv/y3Gz8vlXk91pdlVhbj6zRWA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Lv/y3Gz8vlXk91pdlVhbj6zRWA=
+			</data>
+			<key>hash2</key>
+			<data>
+			GsXka3phTB8qN+E0rTnyuYO4JNxmPCjeMUlJYQw1mEY=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

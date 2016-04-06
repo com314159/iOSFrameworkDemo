@@ -2,7 +2,7 @@
 //  KSModelClass.m
 //  TestLibProject
 //
-//  Created by guozhicheng on 1/21/16.
+//  Created by guozhicheng on 1/22/16.
 //  Copyright © 2016 guozhicheng. All rights reserved.
 //
 
@@ -10,8 +10,8 @@
 
 @implementation KSModelClass
 
-- (NSString *) modelName {
-    return @"郭志诚";
++ (NSString *) testString {
+    return @"郭志诚你好";
 }
 
 @end
